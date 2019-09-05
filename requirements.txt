@@ -1,0 +1,7 @@
+argparse
+numpy
+telegram
+wordcloud
+matplotlib
+bs4
+wikipedia
