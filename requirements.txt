@@ -5,3 +5,4 @@ wordcloud
 matplotlib
 bs4
 wikipedia
+python-telegram-bot
