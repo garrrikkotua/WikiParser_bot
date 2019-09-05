@@ -15,7 +15,6 @@ counter + chat_id: counter object to do stats (stored via pickle)
 
 
 myToken = '599988543:AAHXeI7HZhtoFQSOUh9X1c854sxYeo_v9O4'
-proxy = 'socks5://localhost:9050/'
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
@@ -130,8 +129,7 @@ def error(bot, update, error):
 
 
 def main():
-    # using proxy via tor localhost to avoid blocking
-    updater = Updater(token=myToken, request_kwargs={'proxy_url': proxy})
+    updater = Updater(token=myToken)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
