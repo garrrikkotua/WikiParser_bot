@@ -1,8 +1,9 @@
-python_telegram_bot==10.0.2
-wordcloud==1.4.1
-numpy==1.16.2
-matplotlib==3.0.2
-requests==2.22.0
-wikipedia==1.4.0
-beautifulsoup4==4.8.0
-telegram==0.0.1
+python_telegram_bot
+wordcloud
+numpy
+matplotlib
+requests
+wikipedia
+beautifulsoup4
+telegram
+lxml
