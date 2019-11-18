@@ -14,7 +14,7 @@ counter + chat_id: counter object to do stats (stored via pickle)
 """
 
 
-myToken = '599988543:AAHXeI7HZhtoFQSOUh9X1c854sxYeo_v9O4'
+myToken = 'your telegram bot token'
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
